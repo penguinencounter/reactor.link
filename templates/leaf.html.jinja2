@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting</title>
+    <style>
+        {% include "main.css" without context %}
+    </style>
+    <meta http-equiv="refresh" content="0; URL={{ link }}">
+</head>
+<body>
+    You're being redirected. <a href="{{ link }}"><code>{{ link | e }}</code></a>
+</body>
+</html>

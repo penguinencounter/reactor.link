@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routes</title>
+    <style>
+        {% include "main.css" without context %}
+    </style>
+</head>
+<body>
+    <h1>reactor.link</h1>
+    <ul>
+        {% for k, v in routes.items() %}
+            <li><a href="{{v}}">{{ k|e }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

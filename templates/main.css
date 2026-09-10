@@ -1,0 +1,30 @@
+html {
+    background-color: #eeeeee;
+    color: #000000;
+    font-family: sans-serif;
+
+    --ln: #2020b0;
+    --lnv: #8020b0;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #222222;
+        color: #eeeeee;
+
+        --ln: #8080ee;
+        --lnv: #ee80ee;
+    }
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: var(--ln);
+}
+
+a:visited {
+    color: var(--lnv);
+}
