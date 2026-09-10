@@ -6,6 +6,7 @@ from rich.prompt import Prompt
 
 print()
 print("[green]mapper: utility to help with bulk importing of gdrive links[/]")
+print("[yellow]hold CTRL and manually select files in order to avoid mixing up links[/]")
 print()
 
 first_row = Prompt.ask("Enter aliases (separate by spaces)")
