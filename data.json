@@ -1,5 +1,5 @@
 {
-    "*comment": "Keep list in numeric order. Lowercase letters always.",
+    "*section_sop": "--------- SOPs (numeric order, lowercase) ---------",
     "1": "https://drive.google.com/file/d/1qQOidg115zm7TdoGcio8PMAWOFJuqTlI/view",
     "2": "https://drive.google.com/file/d/1VRevF_2mpQ9Djk5lO4ZTF59Y_Xs9KwR5/view",
     "2a": "https://drive.google.com/file/d/1VRtJMxDeSamR2EOmsRNclYsYUxnDt3yX/view",
@@ -160,5 +160,13 @@
     "85": "https://drive.google.com/file/d/1oJT7EqeQPbTcUZppkiIpBhZe1LBZ6IuM/view",
     "85a": "https://drive.google.com/file/d/1oJdk7sH1gtLErz8ulERJ2aEgNTovQQ2y/view",
     "85b": "https://drive.google.com/file/d/1oSFHH6BL5mfg1ZzhoxWivmLQeNZwc2d0/view",
-    "*end": "comma"
+    "*section_other_docs": "--------- Other Documents ---------",
+    "eip": "https://drive.google.com/file/d/11PBYSJdHp3isno72TLzi8HdX6YgqITJw/view",
+    "eplan": "https://drive.google.com/file/d/1AhkWrnoBu4WS_P6wHNVBVePczD4YyExe/view",
+    "emergencyplan": "https://drive.google.com/file/d/1AhkWrnoBu4WS_P6wHNVBVePczD4YyExe/view",
+    "*section_folders": "--------- Folders ---------",
+    "s": "https://drive.google.com/drive/folders/1MFP2LnanvqDFZcNrGB5dhqBzeTXS8XRI",
+    "sop": "https://drive.google.com/drive/folders/1MFP2LnanvqDFZcNrGB5dhqBzeTXS8XRI",
+    "!": "https://drive.google.com/drive/folders/0ANwXVfFD5kRsUk9PVA",
+    "*end": ""
 }
